@@ -8,7 +8,8 @@ import 'package:fridgecooker/models/recipe_model.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class Home extends StatefulWidget {
-  
+  const Home({Key?  key}) : super(key: key);
+
   @override
   _HomeState createState() => _HomeState();
 }
